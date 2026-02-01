@@ -128,3 +128,41 @@ console.log(selectedColors.length);
 
 //An array is a datastructure that is used to store a list of items.
 
+//Functions
+//A Function is basically a statement that Performs a task or calculates a value.
+
+function greet(){
+    console.log('Hello World!');
+}
+
+greet();
+
+//Our functions can have inputs, and these inputs can change how functions behave.
+function greet(sisterName, sisterLastName){
+    console.log('Hello ' + sisterName + ' ' + sisterLastName);
+}
+
+greet('Kwamboka');
+
+//NB: A parameter is what is placed in the brackets at the time of function declaration
+//while an argument is the actual value we pass to the parameter. Example in this case.
+//sisterName is the parameter, Kwamboka is the argument.
+
+greet('Mercy');
+
+greet('Anne', 'Machoka');
+
+//Function greet above is one that is performing a task. (Displaying something on the console)
+
+//Function to calculate a value
+function square(number){
+    return number * number;
+}
+//let number = square(12);
+//console.log(number);
+
+console.log(square(2));
+console.log(square(4));
+console.log(square(6));
+console.log(square(8));
+console.log(square(10));
